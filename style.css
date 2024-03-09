@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Averta CY W10';
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    background-color: #fff;
+}
+
+#home {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#navbar {
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar img {
+    width: 110px;
+}
+
+#navbar .right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#navbar .right a {
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+#navbar .right i {
+    font-size: 21px;
+    margin-top: 7px;
+}
+
+#heading-home {
+    width: 100%;
+    padding: 12vw 16vw;
+}
+
+#heading-home h2 {
+    font-size: 1.7vw;
+    letter-spacing: -0.6px;
+    font-weight: 500;
+}
+
+#heading-home .sec-heading {
+    display: flex;
+    gap: 1.2vw;
+}
+
+#heading-home .sec-heading h1 {
+    color: transparent;
+    -webkit-text-stroke: 0.07vw #000;
+    font-weight: 900;
+    letter-spacing: -2px;
+    font-size: 7vw;
+}
+
+#sec-home{
+    width: 100%;
+    padding: 5vw 16vw;
+}
+
+#sec-home p{
+    width: 620px;
+    font-weight: 500;
+    font-size: 1.5vw;
+    letter-spacing: -0.04vw;
+}
+#sec-home p::selection{
+    color: #fff;
+    background: #000;
+}
+
+#feature{
+    width: 100%;
+    padding: 10vw 16vw;
+}
+
+#feature .feature-heading h2{
+    font-weight: 400;
+    font-size: 4vw;
+}
+
+.feature-heading :nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 0.04vw #000;
+}
+
+#feature #feature-effect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+    /* border: 2px solid red; */
+}
+
+#feature-effect .feature-right{
+    width: 45%;
+    height: 100vh;
+    border: 2px solid blue;
+}
+#feature-effect .feature-left{
+    width: 45%;
+    height: 90vh;
+    border: 2px solid green;
+}
