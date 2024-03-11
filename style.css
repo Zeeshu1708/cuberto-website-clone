@@ -17,7 +17,8 @@ html,body {
 
 #main {
     width: 100%;
-    background-color: #fff;
+    background-color: #fff;  
+    /* overflow-y: hidden;   */
 }
 
 #home {
@@ -162,6 +163,11 @@ html,body {
     width: 90%;
     height: 90%;
     background-color: red;
+}
+#feature-effect .feature-right .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .btndiv{
